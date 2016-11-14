@@ -33,14 +33,14 @@ Last change:09/26/2016
 ============================ */
 
 body{
-	font-family: 'Open Sans',sans-serif;
+	font-family: 'Helvetica',sans-serif;
 	font-weight: 400;
 	color:#606060;
 	height:100%!important;
 }
 
 p{
-    font-family: 'Open Sans';
+    font-family: 'Helvetica';
 	font-size: 15px;
 	font-style: normal;
 	font-weight: 400;
@@ -51,10 +51,9 @@ p{
 
 h1 {
     font-size:62px;
-    font-family: 'Paytone One';
+    font-family: 'Lobster', sans-serif;
     line-height: 64px;
-	font-weight:700;
-    text-transform: uppercase;
+	 font-weight:700;
 	margin-bottom: 20px;
     margin-top: 0px;	
 }
@@ -68,8 +67,7 @@ h1 span{
 
 h2 {	
     font-size: 52px;
-    font-family: 'Paytone One';
-	text-transform: uppercase;
+    font-family: 'Lobster', sans-serif;
     text-align: center;
     margin-top: 0px;
 	color:#222;
@@ -110,8 +108,7 @@ h6 {
 	font-size: 18px;
     line-height:24px;	
 	margin-bottom: 20px;
-	text-transform: uppercase;
-	font-family: 'Open Sans',sans-serif;
+	font-family: 'Payton One',sans-serif;
 	font-weight: 700;
 	letter-spacing:0.5px;
 	padding: 5px 10px;
@@ -119,7 +116,7 @@ h6 {
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 	text-transform:none;
-	font-family: 'Gloria Hallelujah',sans-serif;
+	font-family: 'Helvetica',sans-serif;
 }
 
 /* Links */
@@ -231,7 +228,7 @@ a:focus {text-decoration: none;}
     font-size: 14px;
     text-align: center;
     transition: all .2s ease-in-out;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Helvetica',sans-serif;
     background: transparent;
     letter-spacing: 0.5px;
     display: block;
@@ -1392,7 +1389,7 @@ section{background:#fff;}
     font-size: 18px;
     color: #fff;
     border: 1px solid;
-	font-family: 'Open Sans',sans-serif;
+	font-family: 'Helvetica',sans-serif;
     border-radius: 0px;
     border-radius: 10px;
 	transition: all .2s ease-in-out;
@@ -1437,7 +1434,7 @@ section{background:#fff;}
 	border: 0px!important;
 	color: #333;
 	background:#fff;
-	font-family:Open Sans;
+	font-family:Helvetica;
 	font-weight:700;
 	padding: 10px 35px;
 	font-size: 20px;
@@ -1529,7 +1526,7 @@ ul.no-margin{
     padding: 18px 25px;
     font-weight: 700;
     font-size: 14px;
-    font-family: Open Sans;
+    font-family: Helvetica;
     text-align: center;
 	transition: all .2s ease-in-out;
     background: none;
@@ -1763,7 +1760,7 @@ textarea.form-control:focus{outline:0 none;}
 	font-weight:700;
 	margin: 8px;
     padding: 10px 15px;
-    font-family: Open Sans;
+    font-family: Helvetica;
 }
 
 /* Tables */
@@ -1788,7 +1785,7 @@ textarea.form-control:focus{outline:0 none;}
     list-style: none;
     line-height: 36px;
 	font-weight:400;
-	font-family: 'Open Sans',sans-serif;
+	font-family: 'Helvetica',sans-serif;
 }
 
 /* Media */
