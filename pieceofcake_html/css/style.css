@@ -220,6 +220,7 @@ a:focus {text-decoration: none;}
 	top: 0px;
 	transition: all 0.7s ease-in-out;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.10);
+  background-image: url(img/bake_pattern.png) repeat;
 }
 
 .navbar-nav > li > a {padding: 10px 25px;}
@@ -234,7 +235,7 @@ a:focus {text-decoration: none;}
     display: block;
     line-height: 60px;
     font-weight: 600;
-	color:#fff;
+	  color:#fff;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu { 
@@ -284,10 +285,11 @@ a:focus {text-decoration: none;}
 }
 
 .navbar-brand img {
-	max-width: 230px;
+	max-width: 200px;
     position: absolute;
     left: 0;
     right: 0;
+    top: 7px;
 }
  
 /* ===========================
