@@ -1580,7 +1580,7 @@ hr {border-top: 2px dotted #cecece;}
 }
 
 .hr:before {
-	 content: "\f111";
+	background-image: url(image/bun.png)
 	font-family: 'Flaticon';
 	font-weight: normal;
 	position: relative;
