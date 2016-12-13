@@ -565,33 +565,33 @@ ul.slider-pagi {padding-left:0px;}
 
 .testimonial{margin: 20px 15px 0;}
 
-.testimonial .testimonial-pic{
+/*.testimonial .testimonial-pic{
     width: 120px;
     height: 120px;
     border-radius: 50%;
     float: left;
     border: 5px solid #fff;
     position: relative;
-}
+}*/
 
 .testimonial .testimonial-pic:after{
     content: "\f10d";
     font-family: fontawesome;
-    width: 56px;
-    height: 56px;
+    width: 75px;
+    height: 75px;
     line-height: 56px;
     border-radius: 50%;
     text-align: center;
     font-size: 26px;
     color: #fff;
     position: absolute;
-    top: 65px;
+    top: 54px;
     left: 0;
 }
 
 .testimonial .testimonial-content{
     padding: 10px;
-    margin-left: 120px;
+    margin-left: 75px;
 }
 
 .testimonial .description{
@@ -602,7 +602,7 @@ ul.slider-pagi {padding-left:0px;}
 .testimonial .testimonial-title{
     font-size: 24px;
     display: inline-block;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Pacifico', cursive;
 }
 
 .testimonial .post{
@@ -825,7 +825,7 @@ ul.slider-pagi {padding-left:0px;}
 
 .menu-body {
   margin: 0 auto;
-  padding-top:30px;
+  /*padding-top:30px;*/
   display: block;
   color: rgb(92, 92, 92);
 }
@@ -844,8 +844,8 @@ ul.slider-pagi {padding-left:0px;}
     background: #fff;
     border-radius: 10px;
     padding: 20px;
-	border:2px solid #fff;
-	transition: all 0.2s ease-in-out;
+	  border:2px solid #fff;
+	  transition: all 0.2s ease-in-out;
 }
 .menu-item:hover{border:2px dotted #dadad7;}
 
@@ -853,15 +853,18 @@ ul.slider-pagi {padding-left:0px;}
 
 .menu-item-name{
   text-align:left;
-  font-size:18px;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-size:20px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 800;
   border-bottom: 1px dotted rgb(213, 213, 213);
 }
+
+
 
 /* menu Description */
 
 .menu-item-description {
-  font-size: .8em;
+  font-size: 11px;
   line-height: 1.5em;
   margin-top:10px;
   text-align:left;
@@ -870,14 +873,12 @@ ul.slider-pagi {padding-left:0px;}
 /* menu Price */
 
 .menu-item-price{
-    float: right;
+    display: inline-block;
     margin-top: -32px;
-    height: 60px;
-	background: #fff;
-	font-weight:800;
+    height: 40px;
     line-height: 50px;
-    font-size: 20px;
-	transition: all 0.3s;
+    font-size: 13px;
+	  transition: all 0.3s;
 }
 
 /* menu Polaroid */
@@ -1432,7 +1433,6 @@ section{background:#fff;}
 	display: block;
 	letter-spacing:0.2px;
 	min-height: 50px;
-	line-height: 57px;
 	border: 0px!important;
 	color: #333;
 	background:#fff;
@@ -1580,8 +1580,6 @@ hr {border-top: 2px dotted #cecece;}
 }
 
 .hr:before {
-	background-image: url(image/bun.png)
-	font-family: 'Flaticon';
 	font-weight: normal;
 	position: relative;
 	top: -0.7em;
@@ -2088,7 +2086,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 		border: 0;
 		line-height: 32px;
 		letter-spacing: 0px;
-		font-size: 29px;
+		font-size: 40px;
     }			
 	.section-heading {margin-bottom: 3rem;}	
 	
@@ -2174,6 +2172,14 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 	#newsletter{background-image:none;}
 
 }
+
+/************ max width 780px *************/
+@media only screen and (max-width: 780px) {
+  .menu-item-name {
+    text-align: center;
+  }
+}
+
 
 /************ max width 300px *************/
 @media (max-width: 300px) {
