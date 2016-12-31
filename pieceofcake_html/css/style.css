@@ -1166,6 +1166,10 @@ footer img{max-width: 280px;}
 	z-index:99;
 }
 
+.parallax-object.buns_img img {
+  width: 100px;
+}
+
 /* Diagonal divider */
 
 .slanted-divider {
@@ -1577,6 +1581,7 @@ hr {border-top: 2px dotted #cecece;}
     height: 0;
     margin: 20px auto 0px auto;
     width: 100%;
+    background-image: url(../img/Barrys.png);
 }
 
 .hr:before {
@@ -2114,6 +2119,8 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 	
 	h6{font-size:16px;}
 
+  p{font-size: 12px;}
+
     /* diagonal divider */
 	
 	.slanted-divider{display:none;}
@@ -2171,6 +2178,42 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 	
 	#newsletter{background-image:none;}
 
+  /*testimonial mobile style*/ 
+  .testimonial .testimonial-pic:after {
+    display: none;
+  }
+
+  /*menu mobile styles*/
+  .nav.nav-tabs {
+    border-bottom: none;
+  }
+
+  .nav.nav-tabs > li {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-bottom: dotted #02BBAE 1px;
+  }
+
+  .nav.nav-tabs > li > a {
+    display: block;
+    font-size: 14px;
+    border-radius: 0;
+  }
+
+  .nav.nav-tabs li:last-child {
+    margin-bottom: 25px;
+  }
+
+
+
+  #menu .section-heading {
+    margin: 0 0 25px 0;
+  }
+
+  #menu .menu-item:first-child {
+    margin: 0 0 25px 0;
+  }
 }
 
 /************ max width 780px *************/
@@ -2178,6 +2221,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
   .menu-item-name {
     text-align: center;
   }
+
 }
 
 
