@@ -3,7 +3,7 @@ Template Name: Piece of Cake
 Color style: Sweet
 */
 
-/*________ Pink ________  */
+/*________ Orange ________  */
 
 .loader span,
 .btn,
@@ -30,7 +30,7 @@ Color style: Sweet
 #menu h3,
 .object-load,
 .blog-tags a
-{background-color:#D0324B;}
+{background-color:#D47741;}
  
 a,
 #contact i,
@@ -44,7 +44,7 @@ a,
 .navbar-custom ul.nav li a:hover,
 .navbar-custom .nav > .active > a ,
 h3
-{color:#D0324B;}
+{color:#D47741;}
 
 .gallery-thumb:hover .overlay-mask,
 .img-circle.border,
@@ -53,9 +53,9 @@ h3
 .social-media i,
 .color-section .form-control,
 .featured-package:hover
-{border-color:#D0324B;}
+{border-color:#D47741;}
 
-/*________  Green ________  */
+/*________  Turquoise ________  */
 
 a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover,
 .navbar-toggle,
@@ -88,7 +88,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 .nav.nav-tabs>li.active>a,
 .post-comment,
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover
-{background-color:#2dbba4;}
+{background-color:#02BBAE;}
 
 h1,
 #about .media i:hover,
@@ -109,7 +109,7 @@ blockquote:before,
 .panel-heading a:focus,
 .panel-heading a.active,
 .panel-heading a
-{color:#2dbba4;}
+{color:#02BBAE;}
 
 .team-member .profile-image,
 .btn:hover,.btn:focus,
@@ -124,7 +124,7 @@ blockquote:before,
 .navbar-custom .nav > .active > a,
 .color-section h2,
 .tab-content
-{border-color:#2dbba4;}
+{border-color:#02BBAE;}
 
 /*________  Light Yellow ________  */
 

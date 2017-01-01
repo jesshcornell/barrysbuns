@@ -33,14 +33,14 @@ Last change:09/26/2016
 ============================ */
 
 body{
-	font-family: 'Open Sans',sans-serif;
+	font-family: 'Helvetica',sans-serif;
 	font-weight: 400;
 	color:#606060;
 	height:100%!important;
 }
 
 p{
-    font-family: 'Open Sans';
+    font-family: 'Helvetica';
 	font-size: 15px;
 	font-style: normal;
 	font-weight: 400;
@@ -51,10 +51,9 @@ p{
 
 h1 {
     font-size:62px;
-    font-family: 'Paytone One';
+    font-family: 'Lobster', sans-serif;
     line-height: 64px;
-	font-weight:700;
-    text-transform: uppercase;
+	 font-weight:700;
 	margin-bottom: 20px;
     margin-top: 0px;	
 }
@@ -68,8 +67,7 @@ h1 span{
 
 h2 {	
     font-size: 52px;
-    font-family: 'Paytone One';
-	text-transform: uppercase;
+    font-family: 'Lobster', sans-serif;
     text-align: center;
     margin-top: 0px;
 	color:#222;
@@ -110,8 +108,7 @@ h6 {
 	font-size: 18px;
     line-height:24px;	
 	margin-bottom: 20px;
-	text-transform: uppercase;
-	font-family: 'Open Sans',sans-serif;
+	font-family: 'Payton One',sans-serif;
 	font-weight: 700;
 	letter-spacing:0.5px;
 	padding: 5px 10px;
@@ -119,7 +116,7 @@ h6 {
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 	text-transform:none;
-	font-family: 'Gloria Hallelujah',sans-serif;
+	font-family: 'Helvetica',sans-serif;
 }
 
 /* Links */
@@ -223,21 +220,27 @@ a:focus {text-decoration: none;}
 	top: 0px;
 	transition: all 0.7s ease-in-out;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.10);
+  background-image: url(img/bake_pattern.png) repeat;
 }
 
-.navbar-nav > li > a {padding: 10px 25px;}
+
+.navbar-nav > li > a {
+  padding: 10px 25px;
+
+}
+
 
 .navbar-custom ul.nav li a {
     font-size: 14px;
     text-align: center;
     transition: all .2s ease-in-out;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Helvetica',sans-serif;
     background: transparent;
     letter-spacing: 0.5px;
     display: block;
     line-height: 60px;
     font-weight: 600;
-	color:#fff;
+	  color:#fff;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu { 
@@ -287,10 +290,11 @@ a:focus {text-decoration: none;}
 }
 
 .navbar-brand img {
-	max-width: 230px;
+	max-width: 200px;
     position: absolute;
     left: 0;
     right: 0;
+    top: 7px;
 }
  
 /* ===========================
@@ -560,39 +564,52 @@ ul.slider-pagi {padding-left:0px;}
  
 .features-icon{margin: 20px 0 40px;}
 
+.about-us-img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  background-color: #02BBAE;
+  margin: 25px auto;
+}
+
+#about .section-heading {margin-bottom: 25px;}
+
+#about p {text-align: center;}
+
 /*===========================
  Testimonials
 ============================ */
 
 .testimonial{margin: 20px 15px 0;}
 
-.testimonial .testimonial-pic{
+/*.testimonial .testimonial-pic{
     width: 120px;
     height: 120px;
     border-radius: 50%;
     float: left;
     border: 5px solid #fff;
     position: relative;
-}
+}*/
 
 .testimonial .testimonial-pic:after{
     content: "\f10d";
     font-family: fontawesome;
-    width: 56px;
-    height: 56px;
+    width: 75px;
+    height: 75px;
     line-height: 56px;
     border-radius: 50%;
     text-align: center;
     font-size: 26px;
     color: #fff;
     position: absolute;
-    top: 65px;
+    top: 54px;
     left: 0;
 }
 
 .testimonial .testimonial-content{
     padding: 10px;
-    margin-left: 120px;
+    margin-left: 75px;
 }
 
 .testimonial .description{
@@ -603,7 +620,7 @@ ul.slider-pagi {padding-left:0px;}
 .testimonial .testimonial-title{
     font-size: 24px;
     display: inline-block;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Pacifico', cursive;
 }
 
 .testimonial .post{
@@ -826,7 +843,7 @@ ul.slider-pagi {padding-left:0px;}
 
 .menu-body {
   margin: 0 auto;
-  padding-top:30px;
+  /*padding-top:30px;*/
   display: block;
   color: rgb(92, 92, 92);
 }
@@ -845,8 +862,8 @@ ul.slider-pagi {padding-left:0px;}
     background: #fff;
     border-radius: 10px;
     padding: 20px;
-	border:2px solid #fff;
-	transition: all 0.2s ease-in-out;
+	  border:2px solid #fff;
+	  transition: all 0.2s ease-in-out;
 }
 .menu-item:hover{border:2px dotted #dadad7;}
 
@@ -854,15 +871,18 @@ ul.slider-pagi {padding-left:0px;}
 
 .menu-item-name{
   text-align:left;
-  font-size:18px;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-size:20px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 800;
   border-bottom: 1px dotted rgb(213, 213, 213);
 }
+
+
 
 /* menu Description */
 
 .menu-item-description {
-  font-size: .8em;
+  font-size: 11px;
   line-height: 1.5em;
   margin-top:10px;
   text-align:left;
@@ -871,14 +891,12 @@ ul.slider-pagi {padding-left:0px;}
 /* menu Price */
 
 .menu-item-price{
-    float: right;
+    display: inline-block;
     margin-top: -32px;
-    height: 60px;
-	background: #fff;
-	font-weight:800;
+    height: 40px;
     line-height: 50px;
-    font-size: 20px;
-	transition: all 0.3s;
+    font-size: 13px;
+	  transition: all 0.3s;
 }
 
 /* menu Polaroid */
@@ -1166,6 +1184,10 @@ footer img{max-width: 280px;}
 	z-index:99;
 }
 
+.parallax-object.buns_img img {
+  width: 100px;
+}
+
 /* Diagonal divider */
 
 .slanted-divider {
@@ -1392,7 +1414,7 @@ section{background:#fff;}
     font-size: 18px;
     color: #fff;
     border: 1px solid;
-	font-family: 'Open Sans',sans-serif;
+	font-family: 'Helvetica',sans-serif;
     border-radius: 0px;
     border-radius: 10px;
 	transition: all .2s ease-in-out;
@@ -1414,6 +1436,8 @@ section{background:#fff;}
 
 /* Nav-tabs */
 
+
+
 .nav-tabs {text-align:center;}
 
 .nav.nav-tabs > li.active > a:hover,
@@ -1422,10 +1446,10 @@ section{background:#fff;}
 .nav.nav-tabs>li.active>a{color:#fff;}
 
 .nav.nav-tabs > li {
-    float:none;
-    display:inline-block;
-	padding: 0px 10px;
-	border:0px;
+      float:none;
+      display:inline-block;
+	   padding: 0px;
+	   border:0px;
 }
 
 .nav.nav-tabs > li > a {
@@ -1433,11 +1457,10 @@ section{background:#fff;}
 	display: block;
 	letter-spacing:0.2px;
 	min-height: 50px;
-	line-height: 57px;
 	border: 0px!important;
 	color: #333;
 	background:#fff;
-	font-family:Open Sans;
+	font-family:Helvetica;
 	font-weight:700;
 	padding: 10px 35px;
 	font-size: 20px;
@@ -1445,7 +1468,7 @@ section{background:#fff;}
 	transition: all .2s ease-in-out;
 }
 .nav.nav-tabs.small > li {
-    padding:0px
+    padding:0px;
 }
 .nav.nav-tabs.small > li > a {
 	letter-spacing:0px;
@@ -1456,6 +1479,10 @@ section{background:#fff;}
 	font-size: 15px;
 	border-radius: 10px 10px 0 0px;
 	transition: all .2s ease-in-out;
+}
+
+.nav-tabs > li > a {
+  margin-right: 0px;
 }
 /* Elements page*/
 
@@ -1529,7 +1556,7 @@ ul.no-margin{
     padding: 18px 25px;
     font-weight: 700;
     font-size: 14px;
-    font-family: Open Sans;
+    font-family: Helvetica;
     text-align: center;
 	transition: all .2s ease-in-out;
     background: none;
@@ -1581,8 +1608,6 @@ hr {border-top: 2px dotted #cecece;}
 }
 
 .hr:before {
-	 content: "\f111";
-	font-family: 'Flaticon';
 	font-weight: normal;
 	position: relative;
 	top: -0.7em;
@@ -1763,7 +1788,7 @@ textarea.form-control:focus{outline:0 none;}
 	font-weight:700;
 	margin: 8px;
     padding: 10px 15px;
-    font-family: Open Sans;
+    font-family: Helvetica;
 }
 
 /* Tables */
@@ -1788,7 +1813,7 @@ textarea.form-control:focus{outline:0 none;}
     list-style: none;
     line-height: 36px;
 	font-weight:400;
-	font-family: 'Open Sans',sans-serif;
+	font-family: 'Helvetica',sans-serif;
 }
 
 /* Media */
@@ -2089,7 +2114,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 		border: 0;
 		line-height: 32px;
 		letter-spacing: 0px;
-		font-size: 29px;
+		font-size: 40px;
     }			
 	.section-heading {margin-bottom: 3rem;}	
 	
@@ -2101,7 +2126,9 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 		margin:5px;
 	}
 	
-    h2 {font-size: 26px;}
+  h2 {font-size: 26px;}
+
+  .section-heading h2 {font-size: 28px !important}
 	
 	h3 { 
 		font-size:25px;
@@ -2116,6 +2143,8 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 	h5{font-size:18px;}
 	
 	h6{font-size:16px;}
+
+  p{font-size: 12px;}
 
     /* diagonal divider */
 	
@@ -2174,7 +2203,54 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 	
 	#newsletter{background-image:none;}
 
+  /*testimonial mobile style*/ 
+  .testimonial .testimonial-pic:after {
+    display: none;
+  }
+
+  /*menu mobile styles*/
+  .nav.nav-tabs {
+    border-bottom: none;
+  }
+
+  .nav.nav-tabs > li {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-bottom: dotted #02BBAE 1px;
+  }
+
+  .nav.nav-tabs > li > a {
+    display: block;
+    font-size: 14px;
+    border-radius: 0;
+  }
+
+  .nav.nav-tabs li:last-child {
+    margin-bottom: 25px;
+  }
+
+
+
+  #menu .section-heading {
+    margin: 0 0 25px 0;
+  }
+
+  #menu .menu-item:first-child {
+    margin: 0 0 25px 0;
+  }
+
+  .hr {max-width: 100px;}
 }
+
+/************ max width 780px *************/
+@media only screen and (max-width: 780px) {
+  .menu-item-name {
+    text-align: center;
+  }
+
+}
+
 
 /************ max width 300px *************/
 @media (max-width: 300px) {
