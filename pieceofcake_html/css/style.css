@@ -223,7 +223,12 @@ a:focus {text-decoration: none;}
   background-image: url(img/bake_pattern.png) repeat;
 }
 
-.navbar-nav > li > a {padding: 10px 25px;}
+
+.navbar-nav > li > a {
+  padding: 10px 25px;
+
+}
+
 
 .navbar-custom ul.nav li a {
     font-size: 14px;
@@ -558,6 +563,19 @@ ul.slider-pagi {padding-left:0px;}
 }  
  
 .features-icon{margin: 20px 0 40px;}
+
+.about-us-img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  background-color: #02BBAE;
+  margin: 25px auto;
+}
+
+#about .section-heading {margin-bottom: 25px;}
+
+#about p {text-align: center;}
 
 /*===========================
  Testimonials
@@ -1418,6 +1436,8 @@ section{background:#fff;}
 
 /* Nav-tabs */
 
+
+
 .nav-tabs {text-align:center;}
 
 .nav.nav-tabs > li.active > a:hover,
@@ -1426,10 +1446,10 @@ section{background:#fff;}
 .nav.nav-tabs>li.active>a{color:#fff;}
 
 .nav.nav-tabs > li {
-    float:none;
-    display:inline-block;
-	padding: 0px 10px;
-	border:0px;
+      float:none;
+      display:inline-block;
+	   padding: 0px;
+	   border:0px;
 }
 
 .nav.nav-tabs > li > a {
@@ -1448,7 +1468,7 @@ section{background:#fff;}
 	transition: all .2s ease-in-out;
 }
 .nav.nav-tabs.small > li {
-    padding:0px
+    padding:0px;
 }
 .nav.nav-tabs.small > li > a {
 	letter-spacing:0px;
@@ -1459,6 +1479,10 @@ section{background:#fff;}
 	font-size: 15px;
 	border-radius: 10px 10px 0 0px;
 	transition: all .2s ease-in-out;
+}
+
+.nav-tabs > li > a {
+  margin-right: 0px;
 }
 /* Elements page*/
 
@@ -1581,7 +1605,6 @@ hr {border-top: 2px dotted #cecece;}
     height: 0;
     margin: 20px auto 0px auto;
     width: 100%;
-    background-image: url(../img/Barrys.png);
 }
 
 .hr:before {
@@ -2103,7 +2126,9 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 		margin:5px;
 	}
 	
-    h2 {font-size: 26px;}
+  h2 {font-size: 26px;}
+
+  .section-heading h2 {font-size: 28px !important}
 	
 	h3 { 
 		font-size:25px;
@@ -2214,6 +2239,8 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
   #menu .menu-item:first-child {
     margin: 0 0 25px 0;
   }
+
+  .hr {max-width: 100px;}
 }
 
 /************ max width 780px *************/
