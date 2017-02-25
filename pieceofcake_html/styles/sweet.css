@@ -24,7 +24,6 @@ Color style: Sweet
 .nav-pills > li.active > a,
 .nav-pills>li>a:hover,
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover,.nav-pills.nav>li>a:focus,
-.navbar,
 .social-media i:after,
 .back-to-top i,
 #menu h3,
@@ -32,6 +31,8 @@ Color style: Sweet
 .blog-tags a
 {background-color:#D47741;}
  
+.navbar {background-color:#02BBAE;}
+
 a,
 #contact i,
 .btn-line,

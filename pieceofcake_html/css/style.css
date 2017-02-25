@@ -50,7 +50,7 @@ p{
 /* Headings */
 
 h1 {
-    font-size:62px;
+    font-size:68px;
     font-family: 'Lobster', sans-serif;
     line-height: 64px;
 	 font-weight:700;
@@ -59,7 +59,7 @@ h1 {
 }
 
 h1 span{
-	font-size:42px;
+	font-size:55px;
 	line-height:46px;	
 	font-weight:400;
 	text-transform: none;
@@ -129,8 +129,8 @@ a:focus {text-decoration: none;}
 /* Others */
 
 .subtitle {
-	font-size: 17px;
-	line-height:26px;
+	font-size: 20px;
+	line-height:28px;
 }
  
 .text-light {color: #fff;}
@@ -389,9 +389,9 @@ ul.slider-pagi {padding-left:0px;}
 
 /* Slider Animation */
 
-.slider.animating {transition: transform 0.5s;}
+.slider.animating {transition: transform 0.75s;}
 
-.slider.animating .slide__bg {transition: transform 0.5s;}
+.slider.animating .slide__bg {transition: transform 0.75s;}
 
 .slide {
   position: absolute;
@@ -442,6 +442,11 @@ ul.slider-pagi {padding-left:0px;}
 	opacity: 1;
 }
 
+.slide__overlay.welcome_overlay {
+  right: 4%;
+  width: 650px;
+}
+
 /* Slider Typography */
 
 .slide__text {
@@ -461,7 +466,7 @@ ul.slider-pagi {padding-left:0px;}
 
 .slide:nth-child(1) .slide__bg {
   left: 0;
-  background-image: url(../img/slide1.jpg);
+  background-image: url(../img/assortment_1.jpg);
 }
 
 /* slide2 */
@@ -472,7 +477,7 @@ ul.slider-pagi {padding-left:0px;}
 
 .slide:nth-child(2) .slide__bg {
   left: -50%;
-  background-image: url(../img/slide2.jpg);
+  background-image: url(../img/upclose_bun_1.jpg);
 }
 
 /* slide3 */
@@ -483,7 +488,7 @@ ul.slider-pagi {padding-left:0px;}
 
 .slide:nth-child(3) .slide__bg {
   left: -100%;
-  background-image: url(../img/slide3.jpg);
+  background-image: url(../img/crumb_cake_1.jpg);
 }
 
 /* slide4 */
@@ -494,7 +499,7 @@ ul.slider-pagi {padding-left:0px;}
 
 .slide:nth-child(4) .slide__bg {
   left: -150%;
-  background-image: url(../img/slide4.jpg);
+  background-image: url(../img/ingredients_1.jpg);
 }
 
 /*===========================
@@ -564,18 +569,13 @@ ul.slider-pagi {padding-left:0px;}
  
 .features-icon{margin: 20px 0 40px;}
 
-.about-us-img {
-  display: block;
-  width: 150px;
-  height: 150px;
-  border-radius: 100px;
-  background-color: #02BBAE;
-  margin: 25px auto;
+.aboutus-img {
+  padding-top: 10px;
 }
 
 #about .section-heading {margin-bottom: 25px;}
 
-#about p {text-align: center;}
+#about p {font-weight: 500;}
 
 /*===========================
  Testimonials
