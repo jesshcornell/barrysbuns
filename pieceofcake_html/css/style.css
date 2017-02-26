@@ -44,7 +44,7 @@ p{
 	font-size: 15px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 30px;
+	line-height: 28px;
 }
 
 /* Headings */
@@ -569,8 +569,20 @@ ul.slider-pagi {padding-left:0px;}
  
 .features-icon{margin: 20px 0 40px;}
 
-.aboutus-img {
+.aboutus-img-lrg {
   padding-top: 10px;
+}
+
+#aboutus-img-sm {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 25px auto;
+  background-image: url(../img/jen_joel_1_reduced.jpg);
+  background-position: center;
+  background-position-y: 5px;
 }
 
 #about .section-heading {margin-bottom: 25px;}
@@ -1034,12 +1046,17 @@ ul.slider-pagi {padding-left:0px;}
 ============================ */
 
 #promo{
-	background-image: url(../img/bgpromo.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), rgba(0,0,0,0.55) url(../img/plated_dessert_events.jpg);
+  background-color: #000000;
 	background-size:cover;
 	background-position:center;  
 	background-repeat:no-repeat;
 	padding: 30px 0px;
 	background-attachment:fixed;
+}
+
+#promo h4, #promo p {
+  text-align: center;
 }
 
 /*===========================
@@ -1121,6 +1138,10 @@ ul.slider-pagi {padding-left:0px;}
 	margin: 0 10px;
 	font-size: 18px;
 	font-weight: 700;
+}
+
+.contact-hours {
+  margin-bottom: 15px;
 }
 
 /*Map */
@@ -1276,7 +1297,7 @@ section{background:#fff;}
 .section-heading{
 	text-align: center;
     z-index: 99;
-    margin: 0px auto 100px;
+    margin: 0px auto 50px;
 }
 
 /* Img Shapes */
@@ -1652,6 +1673,14 @@ textarea {
 
 textarea.form-control:focus{outline:0 none;}
 
+input[type="email"], input[type="text"] {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+
+
 /* BIG Social Media Icons */
 
 .social-media {
@@ -1745,7 +1774,6 @@ textarea.form-control:focus{outline:0 none;}
 
 .polaroid {
   position: relative;
-  width: 100%;
   transform: rotate(-2deg);
 }
 
@@ -1896,6 +1924,10 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
     color: #fff;
     text-decoration: none;
 }
+
+/*align center*/
+
+.align-center {text-align: center;}
 
 /*===========================
   Media Queries
@@ -2128,7 +2160,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 	
   h2 {font-size: 26px;}
 
-  .section-heading h2 {font-size: 28px !important}
+  .section-heading h2 {font-size: 34px !important}
 	
 	h3 { 
 		font-size:25px;
@@ -2241,6 +2273,15 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
   }
 
   .hr {max-width: 100px;}
+
+  /*About*/
+
+  #about p {line-height: 20px;}
+
+  #about .section-heading {
+    margin-bottom: 15px;
+  }
+
 }
 
 /************ max width 780px *************/

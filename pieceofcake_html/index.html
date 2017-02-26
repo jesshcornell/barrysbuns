@@ -254,7 +254,8 @@
             <!-- Text -->
             <div class="row">
                <!-- image -->
-                  <img class="col-lg-4 col-sm-12 aboutus-img" src="/barrys_buns/pieceofcake_html/img/joel_jen_v3.jpg"/>  
+                  <img class="hidden-xs hidden-sm col-md-4 col-lg-4 aboutus-img-lrg" src="/barrys_buns/pieceofcake_html/img/joel_jen_v3.jpg"/>  
+                  <img id="aboutus-img-sm" class="col-sm-12 hidden-md hidden-lg"/>  
                <div class="col-lg-8 col-sm-12">
                   <p>Barry’s Buns is family owned business operated by Joel Singer (a.k.a Barry) with the help and support of his wife, Jen. Joel utilizes his expertise in the kitchen and heads up recipe development and production of the tasty baked goods while Jen &#8212; a paralegal and real estate agent by trade &#8212; handles all marketing, brand development, event planning, and business administration.</p>
 
@@ -365,15 +366,13 @@
                   <!-- Tab panes -->
                   <div class="tab-content">
                      <div class="tab-pane active in fade" id="tab1">
-
                         <div class="row">
-                           <!-- <h3>Sticky Buns</h3> -->
                            <!-- column -->
-                           <div class="col-xs-12 col-md-12">
-                              <!-- <div class="polaroid">
-                                 <p>Our famous Forest Cake</p>
-                                 <img src="img/menu1.jpg" alt="" class="img-responsive center-block" />
-                              </div> -->
+                           <div class="polaroid col-xs-12 col-md-4">
+                              <p>Harry Potter Buns</p>
+                              <img src="/barrys_buns/pieceofcake_html/img/butter_beer_buns_1.jpg" alt="" class="img-responsive center-block" />
+                           </div>
+                           <div class="col-xs-12 col-md-8">
                               <div class="menu-body">
                                  <div class="menu-section">
                                     <!-- Item starts -->
@@ -477,13 +476,12 @@
                      <div class="tab-pane fade" id="tab2">
                         <div class="row">
                            <!-- Menu: Pastries-->
-                           <!-- <h3>Tasty Baked Goods</h3> -->
+                           <div class="polaroid col-xs-12 col-md-4">
+                              <p>German Butter Cake</p>
+                              <img src="/barrys_buns/pieceofcake_html/img/butter_cake_1.jpg" alt="" class="img-responsive center-block" />
+                           </div>
                            <!-- column -->
-                           <div class="col-md-6">
-                              <!-- <div class="polaroid">
-                                 <p>Delicious Pastries</p>
-                                 <img src="img/menu2.jpg" alt="" class="img-responsive center-block" />
-                              </div> -->
+                           <div class="col-xs-12 col-md-8">
                               <div class="menu-body">
                                  <div class="menu-section">
                                     <!-- Item starts -->
@@ -598,14 +596,12 @@
                      <!-- /tab-pane -->
                      <div class="tab-pane fade" id="tab3">
                         <div class="row">
-                           <!-- Menu: Sweets-->
-                           <!-- <h3>Bars & Cookies</h3> -->
+                           <div class="polaroid col-xs-12 col-md-4">
+                              <p>Cookies</p>
+                              <img src="/barrys_buns/pieceofcake_html/img/cookies_on_ped_1.jpg" alt="" class="img-responsive center-block" />
+                           </div>
                            <!-- column -->
-                           <div class="col-md-6">
-                              <!-- <div class="polaroid">
-                                 <p>Brownie</p>
-                                 <img src="img/menu3.jpg" alt="" class="img-responsive center-block" />
-                              </div> -->
+                           <div class="col-xs-12 col-md-8">
                               <div class="menu-body">
                                  <div class="menu-section">
                                     <!-- Item starts -->
@@ -835,25 +831,6 @@
 	  
 
 	  
-      
-	  
-	   <!-- Parallax object -->
-		<div class="parallax-object buns_img hidden-sm hidden-xs hidden-md" 
-               data-bottom-top="left:60px;margin-top:120px;transform:translatey(0%);"
-               data-top="transform:translatey(-120%);">
-               <!-- Image -->
-               <img src="img/buns.png" alt="">
-      </div>
-			
-
-	  
-	 <!-- Parallax object -->
-		<div class="parallax-object buns_img hidden-sm hidden-xs hidden-md" 
-               data-bottom-top="right:60px;transform:translatey(0%);"
-               data-top="transform:translatey(-120%);">
-               <!-- Image -->
-               <img src="img/buns.png" alt="">
-      </div>
 	
       <!-- Divider --> 
       <div class="slanted-divider"></div>
@@ -861,11 +838,11 @@
       <!-- Section Promo -->	
       <section id="promo">
          <div class="container">
-            <div class="col-md-6 col-sm-6 col-centered well text-center">
+            <div class="col-md-6 col-sm-6 col-centered well">
                <h4>Have an event or need a special order?<br>Talk to us!</h4>
                <p>We are happy to accommodate the needs of your function such as breakfast meetings, brunches, desserts, waffle station, platters. The catering ideas are endless!</p>
                <!-- Button -->
-               <div class="page-scroll">
+               <div class="page-scroll align-center">
                   <a class="btn " href="#contact">
                      <div class="btn-line"></div>
                      <div class="btn-line btn-line-shift"></div>
@@ -897,12 +874,36 @@
                </div>
             </div>
             <!-- Contact Form -->
+            <div>
+               <div class="col-lg-7 col-md-7 text-left timetable res-margin">
+                  <!-- Sign-->
+                  <h6 class="align-center">HOURS @ The MARKET</h6>
+                  <!-- Table-->
+                  <table class="table">
+                     <tbody>
+                        <tr>
+                           <td class="text-left">Sunday – Wednesday:</td>
+                           <td class="text-right">CLOSED</td>
+                        </tr>
+                        <tr>
+                           <td class="text-left">Thursday – Friday:</td>
+                           <td class="text-right">9:00 a.m. to 6:00 p.m.</td>
+                        </tr>
+                        <tr>
+                           <td class="text-left">Saturday:</td>
+                           <td class="text-right">8:00 a.m. to 5:00 p.m.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
             <div class="row">
-               <div class="col-lg-7 col-md-7 text-center">
-                  <h4>Get in touch with us</h4>
+               <div class="col-lg-7 col-md-7">
+
+                  <!-- <h4>Get in touch with us</h4> -->
                   <p>We are located in the MARKET (at the Fareway), formerly known as the Chestnut Hill Farmers Market. Our address is Germantown Avenue; however, the MARKET is not directly on Germantown Avenue; it is directly behind the Chestnut Hill Hotel, the Post Office, Green Soul, and Follicles Hair Salon.</p>
                   <p>There is free parking on Southampton Avenue (across from Jenks John S School).</p>
-                  <ul class="contact-info">
+                  <ul class="contact-info align-center">
                      <li><i class="fa fa-map-marker"></i>8229 Germantown Avenue, Philadelphia, PA</li>
                      <li><i class="fa fa-phone"></i>267-521-BUNS</li>
                      <li><i class="fa fa-envelope"></i><a href="mailto:BarrysBuns@gmail.com">BarrysBuns@gmail.com</a> </li>
@@ -914,7 +915,7 @@
                      <div class="form-group">
 					 
                         <input type="text" name="name" class="form-control input-field" placeholder="Name" required="">                    
-                        <input type="email" name="email" class="form-control input-field" placeholder="Email ID" required="">           
+                        <input type="email" name="email" class="form-control input-field" placeholder="Email" required="">           
                         <input type="text" name="subject" class="form-control input-field" placeholder="Subject">                                          
                         <textarea name="message" id="message" class="textarea-field form-control" rows="4" placeholder="Enter your message" required=""></textarea>
                         <!-- Button -->
