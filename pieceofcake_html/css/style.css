@@ -1144,6 +1144,9 @@ ul.slider-pagi {padding-left:0px;}
   margin-bottom: 15px;
 }
 
+#contact .section-heading {
+  margin: 0;
+}
 /*Map */
 
 #map-canvas {
