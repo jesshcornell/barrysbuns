@@ -220,7 +220,6 @@ a:focus {text-decoration: none;}
 	top: 0px;
 	transition: all 0.7s ease-in-out;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.10);
-  background-image: url(img/bake_pattern.png) repeat;
 }
 
 
@@ -428,9 +427,9 @@ ul.slider-pagi {padding-left:0px;}
 
 .slide__overlay {
     position: absolute;
-    right: 0%;
+    right: 2%;
     top: -33%;
-    width: 750px;
+    width: 715px;
     transition: transform 0.5s 0.5s, opacity 0.2s 0.5s;
     transform: translate3d(0%, -50%, 0);
     opacity: 1;
@@ -450,14 +449,14 @@ ul.slider-pagi {padding-left:0px;}
 /* Slider Typography */
 
 .slide__text {
-	text-align: center;
-    position: absolute;
-    right: 130px;
-    width: 500px;
-	margin-top:50px;
-    transition: transform 0.5s 0.8s, opacity 0.5s 0.8s;
-    transform: translateY(-50%);
-    opacity: 0;
+  text-align: center;
+  position: absolute;
+  right: 130px;
+  width: 500px;
+  margin-top:38px;
+  transition: transform 0.5s 0.8s, opacity 0.5s 0.8s;
+  transform: translateY(-50%);
+  opacity: 0;
 }
 
 /* slide1 */
@@ -477,7 +476,7 @@ ul.slider-pagi {padding-left:0px;}
 
 .slide:nth-child(2) .slide__bg {
   left: -50%;
-  background-image: url(../img/upclose_bun_1.jpg);
+  background-image: url(../img/buns_1.jpg);
 }
 
 /* slide3 */
@@ -573,16 +572,17 @@ ul.slider-pagi {padding-left:0px;}
   padding-top: 10px;
 }
 
-#aboutus-img-sm {
-  display: block;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin: 25px auto;
-  background-image: url(../img/jen_joel_1_reduced.jpg);
-  background-position: center;
-  background-position-y: 5px;
+.aboutus-img-sml {
+  border-color: #02BBAE;
+  border-style: solid;
+  border-width: 9px;
+  width: 275px;
+  
+}
+
+.aboutus-img-container {
+  text-align: center;
+  padding-bottom: 25px;
 }
 
 #about .section-heading {margin-bottom: 25px;}
@@ -1118,7 +1118,7 @@ ul.slider-pagi {padding-left:0px;}
 ============================ */
 
 #contact .container  {
-	background-image: url(../img/contact_bg.png);
+	/*background-image: url(../img/linzer_cookies.jpg);*/
 	background-position:right;  
 	background-repeat:no-repeat;
 }
@@ -1956,16 +1956,32 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 		
 	.slider-pagi{display:none;}
 	
-	.slide .slide__text{background-color: rgba(253, 253, 253, 0.76);}
+	/*.slide .slide__text{background-color: rgba(253, 253, 253, 0.76);}*/
 
 	.slide__text {
-		left: 0;
-		bottom: 0;
-		margin-top: 0px;
-		width: 100%;
-		text-align: center;
+    	right: 17px;
+      width: 350px;
     }
-	.slide__overlay {display: none;}
+
+  .slide__text h1 {
+    font-size: 53px;
+    line-height: 56px;
+  }
+
+  .slide__text h1 span {
+    font-size: 34px;
+    
+  }
+
+	.slide__overlay, .slide__overlay.welcome_overlay {
+    position: absolute;
+    right: 2%;
+    top: -10%;
+    width: 350px;
+    transition: transform 0.5s 0.5s, opacity 0.2s 0.5s;
+    transform: translate3d(0%, -50%, 0);
+    opacity: 1;
+  }
 	
 	/*navbar */
 			
@@ -2105,7 +2121,19 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 	/* slider */
 
 	.slider {min-height: 280px;}
-		
+
+  .slide__text {
+    right: -80px;
+    width: 362px;
+    margin-top: 193px;  
+	}
+
+  .slide__overlay, .slide__overlay.welcome_overlay {
+    width: 160px;
+    right: 5%;
+    top: 58%;
+  }
+
 	/* menu */
 
 	.tab-content {
@@ -2161,11 +2189,15 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 	
 	/* titles*/
 	
-	h1,h1 span {    
-		font-size: 28px!important;
-		line-height: 32px;
+	h1 {    
+		font-size: 28px !important;
+		line-height: 17px;
 		margin:5px;
 	}
+
+  h1 span {
+    font-size: 21px !important;
+  }
 	
   h2 {font-size: 26px;}
 

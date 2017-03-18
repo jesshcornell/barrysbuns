@@ -11,7 +11,7 @@ $(document).ready(function() {
 			  animating = false,
 			  animTime = 500,
 			  autoSlideTimeout,
-			  autoSlideDelay = 6000,
+			  autoSlideDelay = 7000,
 			  $pagination = $(".slider-pagi");
 		  
 		  function createBullets() {

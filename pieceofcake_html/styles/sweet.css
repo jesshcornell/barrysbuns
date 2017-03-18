@@ -6,8 +6,7 @@ Color style: Sweet
 /*________ Orange ________  */
 
 .loader span,
-.btn,
-.btn-primary,
+.btn-primary, .btn:hover,.btn:focus,
 .navbar-custom ul.nav ul.dropdown-menu,
 .label-default,
 .list-group-item,
@@ -28,14 +27,15 @@ Color style: Sweet
 .back-to-top i,
 #menu h3,
 .object-load,
-.blog-tags a
+.blog-tags a,
+.color-section
 {background-color:#D47741;}
  
 .navbar {background-color:#02BBAE;}
 
+h1,
 a,
 #contact i,
-.btn-line,
 #about .media i,
 .social-media i:hover,
 .social-media i:after,
@@ -58,7 +58,11 @@ h3
 
 /*________  Turquoise ________  */
 
-a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover,
+.btn,
+a.list-group-item:focus,
+a.list-group-item:hover,
+button.list-group-item:focus,
+button.list-group-item:hover,
 .navbar-toggle,
 .nav-pills>li>a,
 .nav.nav-tabs > li.active > a:hover,
@@ -69,14 +73,12 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 .open>.dropdown-toggle.btn-primary:hover,
 .navbar-custom ul.nav ul.dropdown-menu li a,
 .nav-pills .nav > li > a:focus ,
-.btn:hover,.btn:focus,
 .pager li > a:hover,
 .pager li > a:focus,
 .btn-primary:hover,
 .btn-primary:focus,
 .page-title,
 .pagination>li>a,.pagination>li>span,
-.color-section,
 .owl-prev,.owl-next,
 .box,
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover,
@@ -88,10 +90,11 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 .nav.nav-tabs > li.active > a:focus,
 .nav.nav-tabs>li.active>a,
 .post-comment,
-.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover,
+#testimonials.color-section
 {background-color:#02BBAE;}
 
-h1,
+
 #about .media i:hover,
 footer i,
 .post-info i,
@@ -124,7 +127,8 @@ blockquote:before,
 .navbar-custom ul.nav li a:hover,
 .navbar-custom .nav > .active > a,
 .color-section h2,
-.tab-content
+.tab-content,
+.btn-line
 {border-color:#02BBAE;}
 
 /*________  Light Yellow ________  */
