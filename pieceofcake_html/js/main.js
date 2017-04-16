@@ -8,14 +8,14 @@ jQuery(function ($) {
         $('.page-scroll a').on('click', function (event) {
             var $anchor = $(this);
             $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top
+                scrollTop: $($anchor.attr('href')).offset().top -80
             }, 1500, 'easeInOutExpo');
             event.preventDefault();
         });
 		
         //	Back Top Link
 
-        var offset =100;
+        var offset = 100;
         var duration = 500;
         $(window).scroll(function () {
             if ($(this).scrollTop() > offset) {

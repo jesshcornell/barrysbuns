@@ -28,7 +28,8 @@ Color style: Sweet
 #menu h3,
 .object-load,
 .blog-tags a,
-.color-section
+.color-section,
+#promo .box
 {background-color:#D47741;}
  
 .navbar {background-color:#02BBAE;}
@@ -59,6 +60,7 @@ h3
 /*________  Turquoise ________  */
 
 .btn,
+footer.color-section,
 a.list-group-item:focus,
 a.list-group-item:hover,
 button.list-group-item:focus,
