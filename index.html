@@ -1228,7 +1228,7 @@
                      <!-- Contact results -->
                      <div id="contact_results"></div>
                      <!-- Form Starts -->
-                     <form class="form-group">
+                     <form class="form-group" method="POST" action="http://formspree.io/barrysbuns@gmail.com">
 					 
                         <input type="text" name="name" class="form-control input-field" placeholder="Name" required="">                    
                         <input type="email" name="_replyto" class="form-control input-field" placeholder="Email" required="">           
@@ -1376,11 +1376,3 @@
       <script src="js/slider.js"></script>  	  
    </body>
 </html>
-<script type="text/javascript">
-$.ajax({
-    url: "https://formspree.io/barrysbuns@gmail.com", 
-    method: "POST",
-    data: {message: "hello!"},
-    dataType: "json"
-});
-</script>
