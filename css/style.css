@@ -1731,8 +1731,10 @@ hr {border-top: 2px dotted #cecece;}
 .form-control:focus,.textarea-field:focus,.input-field:focus {
    outline:0 none; 
    border:2px solid;
-   height: 25px;
+   height: 42px;
 }
+
+#message.textarea-field {height: auto;}
 
 textarea {
 	height:150px;
@@ -1749,6 +1751,10 @@ input[type="email"], input[type="text"] {
   box-sizing: border-box;
   padding: 0 15px;
   height: 42px;
+}
+
+textarea.form-control:active {
+
 }
 
 
