@@ -468,11 +468,16 @@ ul.slider-pagi {padding-left:0px;}
   background-image: url(../img/assortment_1.jpg);
 }
 
-/*styles for the first slide logo*/
+/*styles for the first slide logo and text*/
+
 .slide__text img {
-  width: 40%;
+  width: 55%;
   margin-left: 9px;
 }
+
+.first-slide-box {margin-top: 15px;}
+
+.first-slide-text {margin-bottom: 9px;}
 
 .first-slide-logo {margin-bottom: 15px;}
 
