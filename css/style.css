@@ -1190,6 +1190,8 @@ ul.slider-pagi {padding-left:0px;}
   margin-bottom: 15px;
 }
 
+#contact_form h6, #contact_form p {font-family: 'Gloria Hallelujah', cursive;}
+
 /*Map */
 
 #map-canvas {
