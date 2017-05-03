@@ -1744,7 +1744,6 @@ hr {border-top: 2px dotted #cecece;}
 .form-control:focus,.textarea-field:focus,.input-field:focus {
    outline:0 none; 
    border:2px solid;
-   height: 42px;
 }
 
 #message.textarea-field {height: auto;}
