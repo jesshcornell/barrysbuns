@@ -918,7 +918,7 @@ ul.slider-pagi {padding-left:0px;}
 /* menu Description */
 
 .menu-item-description {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.5em;
   margin-top:10px;
   text-align:left;
@@ -1195,7 +1195,7 @@ ul.slider-pagi {padding-left:0px;}
   margin-bottom: 15px;
 }
 
-#contact_form p, .timetable p, .first-time td {font-family: 'Gloria Hallelujah', cursive;}
+#contact_form p, .first-time td {font-family: 'Gloria Hallelujah', cursive;}
 
 .first-time h5 {
   font-family: 'Lobster';
