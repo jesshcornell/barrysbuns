@@ -119,12 +119,18 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 	font-family: 'Helvetica',sans-serif;
 }
 
+/*Images MS*/
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
 /* Links */
 
 a {font-weight:600;transition: color .2s ease-in-out;}
 
 a:hover,
 a:focus {text-decoration: none;}
+
 
 /* Others */
 
