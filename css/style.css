@@ -119,19 +119,6 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 	font-family: 'Helvetica',sans-serif;
 }
 
-/*Images MS*/
-img {
-  -ms-interpolation-mode: bicubic
-}
-
-/*IE crunchy logos*/
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  img[src$=".png"] {
-    width: 100%; 
-  }
-}
-
 /* Links */
 
 a {font-weight:600;transition: color .2s ease-in-out;}
