@@ -121,7 +121,15 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 /*Images MS*/
 img {
-  -ms-interpolation-mode: bicubic;
+  -ms-interpolation-mode: bicubic
+}
+
+/*IE crunchy logos*/
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  img[src$=".png"] {
+    width: 100%; 
+  }
 }
 
 /* Links */
@@ -1672,16 +1680,16 @@ ul.no-margin{
     font-size: 14px;
     font-family: Helvetica;
     text-align: center;
-	transition: all .2s ease-in-out;
+	  transition: all .2s ease-in-out;
     background: none;
     border: none;
     outline: none;
-	border-radius:5px;
+	  border-radius:5px;
     cursor: pointer;
     letter-spacing: 0.7px;
     text-transform: uppercase;
     margin-top: 20px;
-	color:#fff;
+	  color:#fff;
 }
 
 .btn-line {
@@ -1694,6 +1702,13 @@ ul.no-margin{
   border-radius:5px;
   transition: 0.2s ease-in-out;
 }
+
+/*Yelp Button has a different color btn style than the others*/
+
+.yelp-btn .btn-line {border-color:#D47741 !important;}
+.yelp-btn a.btn {background-color:#D47741 !important;}
+.yelp-btn a.btn:hover,.yelp-btn a.btn:focus {border-color:#02BBAE !important;}
+.yelp-btn a.btn:hover,.yelp-btn a.btn:focus {background-color:#02BBAE !important;}
 
 /*Button Line */
 
