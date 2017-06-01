@@ -2052,7 +2052,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 
 @media (max-width: 1199px) {
 		
-
+  .about-us-icons img {width: 50% !important;}
 			
 	.navbar-nav > li > a {padding: 10px 20px;}
 
@@ -2078,6 +2078,8 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 /************ max width 991px *************/
 
 @media (max-width: 991px) {
+
+  .about-us-icons img {width: 18% !important;}
 
     /* Main Slider */
   
@@ -2230,6 +2232,8 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 
 @media (max-width: 767px) {
 	
+  .about-us-icons img {width: 19% !important;}
+
 	.navbar-brand img {left: 20px;}
 	
 	/* slider */
@@ -2272,6 +2276,8 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 
 /************ max width 480px *************/
 @media (max-width: 480px) {
+
+  .about-us-icons img {width: 44% !important;}
 	
 	/* slider */
 
