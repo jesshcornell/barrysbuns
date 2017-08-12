@@ -32,10 +32,6 @@ Last change:09/26/2016
   General and Typography
 ============================ */
 html {
-  height: 100%;
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
   overflow-x: hidden;
 }
 
@@ -44,7 +40,6 @@ body{
 	font-weight: 400;
 	color:#606060;
 	height:100%!important;
-  overflow-x: hidden;
 }
 
 p{
