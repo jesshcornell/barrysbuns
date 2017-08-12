@@ -33,7 +33,10 @@ Last change:09/26/2016
 ============================ */
 html {
   height: 100%;
-  overflow-x: hidden
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 body{
