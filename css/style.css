@@ -958,7 +958,6 @@ ul.slider-pagi {padding-left:0px;}
 
 #contact .polaroid-contact-2 {
   transform: rotate(5deg);
-  bottom: 100px;
   left: 25px;
 }
 
@@ -1889,7 +1888,7 @@ input[type="email"], input[type="text"] {
 
 .polaroid img {
   border: 10px solid #fff;
-  border-bottom: 65px solid #fff;
+  border-bottom: 85px solid #fff;
   box-shadow: 0px 10px 40px 0px #d0cdcd;
   -webkit-backface-visibility: hidden; /* chrome fix */
 }
