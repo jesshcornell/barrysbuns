@@ -108,9 +108,8 @@ h5 {
 }
 
 h6 {
-	font-size: 18px;
+	font-size: 16px;
   line-height:24px;	
-	margin-bottom: 20px;
 	font-family: 'Payton One',sans-serif;
 	font-weight: 700;
 	letter-spacing:0.5px;
@@ -475,8 +474,7 @@ ul.slider-pagi {padding-left:0px;}
 /*styles for the first slide logo and text*/
 
 .slide__text img {
-  width: 61%;
-  margin-left: 9px;
+  width: 54%;
 }
 
 .first-slide-box {margin-top: 15px;}
@@ -941,7 +939,7 @@ ul.slider-pagi {padding-left:0px;}
     transition: all 0.3s;
 }
 
-/* menu Polaroid */
+/* Polaroid Overrides */
 
 #menu .polaroid {     
 	margin-bottom: 55px;
@@ -958,8 +956,11 @@ ul.slider-pagi {padding-left:0px;}
 
 #contact .polaroid-contact-2 {
   transform: rotate(5deg);
-  bottom: 100px;
   left: 25px;
+}
+
+#contact .polaroid p {
+  width: 94%;
 }
 
 .polaroid-contact-2 img {
@@ -1198,6 +1199,10 @@ ul.slider-pagi {padding-left:0px;}
 .contact-hours {
   margin-bottom: 15px;
 }
+.store-hours-columns {
+  padding-left: 5%;
+  padding-right: 5%;
+}
 
 #contact_form p, .first-time td {font-family: 'Gloria Hallelujah', cursive;}
 
@@ -1206,6 +1211,11 @@ ul.slider-pagi {padding-left:0px;}
   text-transform: capitalize;
   color: #fff;
 }
+
+.store-hour-titles {
+    text-align: center;
+  }
+
 /*Map */
 
 #map-canvas {
@@ -1889,7 +1899,7 @@ input[type="email"], input[type="text"] {
 
 .polaroid img {
   border: 10px solid #fff;
-  border-bottom: 65px solid #fff;
+  border-bottom: 85px solid #fff;
   box-shadow: 0px 10px 40px 0px #d0cdcd;
   -webkit-backface-visibility: hidden; /* chrome fix */
 }
@@ -1898,8 +1908,8 @@ input[type="email"], input[type="text"] {
   position: absolute;
   text-align: center;
   width: 100%;
-  font-size:20px;
-  bottom: 10px;
+  font-size: 20px;
+  bottom: 21px;
   font-family:'Gloria Hallelujah', cursive;
 }
 
@@ -1932,7 +1942,7 @@ input[type="email"], input[type="text"] {
 /* Tables */
 
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
-    padding: 8px;
+    padding: 8px 0px;
     line-height: 1.42857143;
     vertical-align: top;
 }
@@ -2180,7 +2190,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 		
 	.nav.nav-tabs > li > a {border-radius: 10px;}
 	
-	/* miscelaneous */
+	/* miscellaneous */
 	
 	.margin1{margin-top:30px;}
 
@@ -2192,6 +2202,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 	#promo{background-attachment: scroll;}
 	
 	.timetable{border-left:0px;}
+
 	
 	footer .text-left, footer .text-right{text-align:center;}
 	
